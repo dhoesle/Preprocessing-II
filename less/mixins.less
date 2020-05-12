@@ -10,16 +10,14 @@
     justify-content:@justify;
     align-items: @align;
 }
-.buttons (@bg-color:#008080, @width:200px, @font-color:white){
-    display: block;
-    background-color: @button-bg;
-    margin: 0 10px 20px;
+.buttons (@bg-color:@button-bg, @width:200px, @font-color:@main-bg){
+    background-color: @bg-color;
     cursor: pointer;
-    width: @width;
-    height: 45px;
     font-size: 2rem;
     border-radius: 10px;
-    color:@main-bg;
+    color:@font-color;
+    .displayFlex(center,center,);
+    padding:5%;
     
     &:hover{
       background-color:@font-color;
