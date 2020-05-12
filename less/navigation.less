@@ -8,6 +8,11 @@
             .displayFlex (space-between, center);
             padding:4% 3%;
             width: 100%;
+            @media @mobile {
+                justify-content:space-around;
+                padding:3%;
+
+            }
             a{
                 font-size:1.5rem;
                 text-decoration:none;
@@ -16,8 +21,16 @@
         }
         h1{
             width:100%;
+            @media @mobile {
+                text-align:center;
+                padding-top:4%
+            }
         }
-        max-width: 800px;
+        max-width: 80rem;
+        @media @mobile {
+            max-width: 45rem;
+            flex-direction:column;
+          }
     }
     .borderBottom();
 

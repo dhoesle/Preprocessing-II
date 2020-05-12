@@ -40,9 +40,12 @@ img {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 80rem;
   width: 100%;
   margin: 0 auto;
+  @media @mobile {
+    max-width: 45rem;
+  }
 }
 .navigation{
  max-width: 100%;
