@@ -281,6 +281,9 @@ img {
   align-items: center;
   padding: 5%;
   width: 80%;
+  -webkit-animation: fade-in 0.75s infinite alternate;
+  -moz-animation: fade-in 0.75s infinite alternate;
+  animation: fade-in 0.75s infinite alternate;
 }
 .home .content-pick .destination .btn:hover {
   background-color: #FFFFFF;
@@ -289,6 +292,30 @@ img {
 @media (max-width: 500px) {
   .home .content-pick .destination .btn {
     width: 100%;
+  }
+}
+@-moz-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 @media (max-width: 500px) {
