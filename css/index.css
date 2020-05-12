@@ -178,17 +178,20 @@ img {
   justify-content: space-between;
   align-items: center;
   border-bottom: 2px dashed #C0C0C0;
-  padding: 0px 400px;
+  padding: 0px 500px;
 }
 .navigation nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1%;
+  padding: 4% 2%;
+  width: 45%;
 }
 .navigation nav a {
-  padding: 1.5rem 5rem;
-  background-color: red;
+  font-size: 1.5rem;
+  padding: 1%;
+  text-decoration: none;
+  color: #212529;
 }
 .footer {
   width: 100%;

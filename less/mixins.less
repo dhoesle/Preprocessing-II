@@ -10,3 +10,19 @@
     justify-content:@justify;
     align-items: @align;
 }
+.buttons (@bg-color:#008080, @width:200px, @font-color:white){
+    display: block;
+    background-color: @button-bg;
+    margin: 0 10px 20px;
+    cursor: pointer;
+    width: @width;
+    height: 45px;
+    font-size: 2rem;
+    border-radius: 10px;
+    color:@main-bg;
+    
+    &:hover{
+      background-color:@font-color;
+      color:@bg-color;
+    }
+}
