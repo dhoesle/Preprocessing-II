@@ -1,17 +1,24 @@
 // Navigation Styles here
 .navigation{
-    .displayFlex(space-between, center);
-    nav{
-        .displayFlex (space-between, center);
-        padding:4% 2%;
-        width: 45%;
-        a{
-            font-size:1.5rem;
-            padding:1%;
-            text-decoration:none;
-            color:@font-color;
+    .displayFlex(center, center);
+    .containerNav{
+        .displayFlex(center, center);
+        width:100%;
+        nav{
+            .displayFlex (space-between, center);
+            padding:4% 3%;
+            width: 100%;
+            a{
+                font-size:1.5rem;
+                text-decoration:none;
+                color:@font-color;
+            }
         }
+        h1{
+            width:100%;
+        }
+        max-width: 800px;
     }
     .borderBottom();
-    padding: 0px 500px;
+
 }
