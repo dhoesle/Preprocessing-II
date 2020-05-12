@@ -1,1 +1,12 @@
 // Mixins in here
+.borderBottom(){
+    border-bottom: 2px dashed @navigation-border;
+}
+.borderTop(){
+    border-top: 2px dashed @navigation-border;
+}
+.displayFlex(@justify, @align){
+    display:flex;
+    justify-content:@justify;
+    align-items: @align;
+}
